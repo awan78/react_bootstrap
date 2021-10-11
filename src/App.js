@@ -6,11 +6,13 @@ import { About } from './components/About'
 import { Contact } from './components/Contact' 
 import { Layout } from './components/Layout'
 import { NavigationBar } from './components/NavigationBar'
+import { CarousalView } from './components/Carousal'
 
 function App() {
   return (
     <>
       <NavigationBar />
+      <CarousalView />
       <Layout>  
         <Router>
           <Switch>
