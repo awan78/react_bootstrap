@@ -6,7 +6,7 @@ import image3 from '../assets/image3.jpg'
 
 export const CarousalView = () => {
   return (
-    <Carousel>
+    <Carousel prevLabel={null} nextLabel={null}>
 		  <Carousel.Item>
 		    <img
 		      style={{height: "400px"}}
